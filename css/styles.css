@@ -97,3 +97,23 @@ footer > p , footer > address{
     background-color: red;
     margin: 5px 10px;;
 }
+
+.main{
+    /* border: 1px solid rebeccapurple; */
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+}
+
+.pieRow{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 10px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.leftmenu{
+    display: flex;
+    flex-direction: column;
+}
